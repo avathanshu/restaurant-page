@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1b1b1b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('./milliways.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #2e93a047;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid pink;
+    border-radius: 8px;
+    color: black;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: slateblue;
+}
+
+#content {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 60vw;
+    padding: 20px;
+    background-color: #1b1b1b82;
+    border: 2px solid pink;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 128px;
+    background-color: rgba(124, 104, 238, 0.53);
+    color: yellow;
+    text-decoration-line: underline;
+    font-family: cursive;
+}
